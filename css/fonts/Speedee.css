@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: SpeedeeK;
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Speedee_K_L.woff') format('woff'),
+         url('../fonts/Speedee_K_L.ttf') format('truetype')}
+
+  @font-face {
+    font-family: SpeedeeK;
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Speedee_K_R.woff') format('woff'),
+         url('../fonts/Speedee_K_R.ttf') format('truetype')}
+  @font-face {
+    font-family: SpeedeeK;
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Speedee_K_B.woff') format('woff'),
+         url('../fonts/Speedee_K_B.ttf') format('truetype')}
