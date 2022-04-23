@@ -56,6 +56,107 @@ body {
     display: block;
 }
 
+/* 세로 스크롤바 자동 생성하기 : 스크립트 휠 제거 */
+@media all and (max-width:1280px) {
+    html {
+        overflow-y: auto;
+    }
+}
+
+/* 모달창 */
+.modal-bt {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100px;
+    height: 40px;
+
+    border: 0;
+    
+    font-family: 'SpeedeeK';
+    color: #fff;
+    background-color: #000;
+
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99999;
+}
+
+.modal-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    width: 400px;
+    height: 250px;
+
+    background-color: #fdc200;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.modal-wrap h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    font-family: 'SpeedeeK';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #000;
+
+    white-space: nowrap;
+    text-align: center;
+}
+
+.modal-wrap .modal-desc {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    font-family: 'SpeedeeK';
+    font-size: 16px;
+    color: #666;
+
+    white-space: nowrap;
+    text-align: center;
+}
+
+.m-burger {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    font-size: 35px;
+}
+
+.modal-close {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    display: block;
+    font-size: 20px;
+
+    border: 0;
+
+    cursor: pointer;
+    background-color: #fdc200;
+}
+
 /* 위로 가기 및 기타 버튼들 */
 .go-mc {
     position: fixed;

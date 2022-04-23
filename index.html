@@ -13,8 +13,13 @@
     <script src="js/respond.min.js"></script> 
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery.min.js"></script>
+
+    <!-- Swiper -->
     <script src="js/swiper/swiper.min.js"></script>
     <link rel="stylesheet" href="js/swiper/swiper.min.css">
+
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,8 +27,20 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <!-- HTML, CSS, JS 마지막 수정일 : 2022. 03. 21 -->
-    <!-- 맥도날드 테마 컬러를 배경색으로 해서 모달창 만들기 (맥도날드 글씨체 사용) -->
+    <!-- 모달창 -->
+    <button class="modal-bt">모달창열기</button>
+    <div class="modal">
+        <div class="modal-wrap">
+            <i class="fas fa-hamburger m-burger"></i>
+            <h2>
+                이 사이트는 스터디용으로 제작되었으며 <br> 리소스는 원저작자에게 있습니다. 
+            </h2>
+            <span class="modal-desc">
+                * 해당 사이트는 Chrome에 최적화되어 있습니다.
+            </span>
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
     <div class="wrap">
         <!-- 위로 가기 -->
         <div class="go-mc">
