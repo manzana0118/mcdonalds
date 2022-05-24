@@ -1,4 +1,4 @@
-# Mcdonalds
+# 🍔 Mcdonalds
 [클론코딩] 맥도날드  
 URL : https://www.mcdonalds.co.kr/kor/main.do  
 
